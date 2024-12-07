@@ -64,6 +64,11 @@ document.addEventListener("keydown", (e) => {
 let slideIndex = 0;
 showSlides(slideIndex);
 
+// 每5秒自动切换幻灯片
+setInterval(() => {
+  changeSlide(1); // 每次切换到下一张幻灯片
+}, 5000); // 5000毫秒，即5秒
+
 function changeSlide(n) {
   showSlides((slideIndex += n));
 }
