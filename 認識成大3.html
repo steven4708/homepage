@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-TW" id="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./icon.css">
+    <link rel="stylesheet" href="jin.css">
+    <title>認識城大 - 澳门城市大学</title>
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <h1 class="zh_title">認識城大</h1>
+        </div>
+        <div class="video-container">
+            <div class="icon-area">
+                <i class="iconfont icon-bofang"></i>
+                <video class="main_video"
+                    src="https://cityu.edu.mo/wp-content/uploads/2022/04/cityu20220818164237827274.mp4"
+                    poster="./video-cover.jpg" style="display: none;"></video>
+            </div>
+            <!-- <div class="video-info"> -->
+            <div class="video-info video-list-wrapper">
+                <p class="video_title">澳門城市大學</p>
+                <ul class="video-list clearfix">
+                    <li class="item">
+                        <a href="https://cityu.edu.mo/wp-content/uploads/2022/04/cityu20220818164237827274.mp4">粵語版</a>
+                    </li>
+                    <li class="item">
+                        <a href="https://cityu.edu.mo/wp-content/uploads/2022/04/cityu20220818164547153679.mp4">國語版</a>
+                    </li>
+                    <li class="item">
+                        <a href="https://cityu.edu.mo/wp-content/uploads/2022/04/cityu20220818163909650610.mp4">英語版</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- </div> -->
+            <div class="university-intro">
+                <h2>兩岸四地排名 <span>#89</span></h2>
+                <span>
+                    <a href="https://cityu.edu.mo/zh/%e5%a4%a7%e5%ad%b8%e7%b0%a1%e4%bb%8b/">澳門城市大學前身為成立於1981年的東亞大學，2011年2月更名為澳門城市大學（葡文名稱：Universidade&nbsp;&nbsp;Da&nbsp;&nbsp;Cidade&nbsp;&nbsp;De&nbsp;&nbsp;Macau，英文名稱：City
+                        University of Macau）。大學氹仔校本部座山面海，飽覽南海、珠江及澳門景色，是澳門地區海拔最高的綜合性大學，亦堪稱是求學及從事研究的理想高等學府...</a>
+                </span>
+            </div>
+        </div>
+
+        <!-- 模态框结构 -->
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <p></p>
+                <video id="popup-video" controls></video>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            document.addEventListener('DOMContentLoaded', function () {
+                const videoLinks = document.querySelectorAll('.video-list a');
+                const modal = document.getElementById('modal');
+                const mainVideo = document.querySelector(".main_video")
+                const popupVideo = document.getElementById('popup-video');
+                const closeBtn = document.querySelector('.close-btn');
+                const popVideo = document.querySelector('.icon-bofang')
+
+                videoLinks.forEach(function (link) {
+                    link.addEventListener('click', function (e) {
+                        e.preventDefault();
+                        popupVideo.src = this.href;
+                        popupVideo.currentTime = 0;
+                        popupVideo.play();
+                        modal.style.display = 'block';
+                    });
+                });
+
+                popVideo.addEventListener("click", function () {
+                    popupVideo.src = mainVideo.src;
+                    popupVideo.currentTime = mainVideo.currentTime;
+                    popupVideo.play();
+                    modal.style.display = 'block';
+                })
+
+                closeBtn.addEventListener('click', function () {
+                    popupVideo.pause();
+                    modal.style.display = 'none';
+                });
+
+            });
+        </script>
+    </div>
+</body>
+
+</html>

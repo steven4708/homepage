@@ -1,0 +1,129 @@
+/* 新闻 */
+body{margin: 0;}
+.a2{background-color: transparent;
+	line-height: 1.5;
+    text-decoration: none;}
+#p1{margin: 0 0 20px 0;
+    line-height: 1.8;}
+.news{width: 100%;background-color: #ffffff;font-family: "Times New Roman", '微軟正黑體';}
+.container-news{width: 100%;height: 493.885px;background-color: #ffffff;
+    padding: 0;padding-bottom: 35px;padding-top: 35px;;}
+.main-news{display: block;width: 100%;height: 493.885px;}  
+
+.news-left{width: 69.5%;height: 349.927px;
+    padding-left: 35px;
+    padding-right: 0;
+    float: left;} 
+
+.news-title{text-align: left;}  
+.news-title-in{color: #008264;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1.3846153846;
+    letter-spacing: 2px;}  
+.news-title-inn{font-size: 15px;color: #999;}  
+.new{display: flex;
+    margin-top: 25px;}  
+.new-main{width: 360px;
+    margin-right: 33px;
+    font-size: 15px;
+    color: #484848;}  
+.new-pic{width: 100%;
+    height: auto;
+    max-width: 100%;}
+.new-desc{margin-top: 10px;
+    color: #484848;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: bold;}
+
+.news-right{width: 27%;height: 349.927px;
+    padding: 0;
+    float: right;}
+
+.acty{width: 91.2%;
+margin-top: 25px; }  
+.acty-cnt{margin-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    display: flex;}
+.acty-time{padding: 6px;
+    width: 61px;height: 61px;
+    background-color: #258576;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Montserrat', '-apple-system', 'Bl';
+    text-align: center;}
+.day{font-size: 18px;line-height: 2em;}
+.acty-desc{margin-left: 20px;
+    width: 70%;
+    text-align: left;
+    font-weight: normal;
+    line-height: 20px;}
+.desc-in{width: 100%;
+    color: #3f3f3f;
+    font-size: 14px;
+    font-family: "Times New Roman", "微軟正黑體";
+    text-decoration: none;
+    display: flex;}
+
+/* 报读 */
+body{line-height: 1.5;}
+.a1{font-weight: normal;
+    color: #3F3F3F;
+    font-family: 'Times New Roman', '微軟正黑體';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    text-decoration: none;}
+.application{width: 100%;background-color: rgb(238, 238, 238);display: block;overflow:hidden;}
+.container-app{padding: 0 20px;padding-bottom: 15px;
+    width: 100%;}
+.app-title{margin-top: 35px;
+    text-align: center;
+    color: rgb(0, 130, 100);}
+.app-title-in{font-family: 'Times New Roman', '微软正黑体';font-size: 40px;font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 1.3846153846;
+    text-align: center;
+    color:  rgb(0, 130, 100);} 
+.main-app{margin-top: 25px;margin-bottom: 43px;
+    background-image: url(https://cityu.edu.mo/wp-content/uploads/2021/03/apply.jpg);
+    background-repeat: no-repeat;
+    width: 69.5%;height: 28.3vw;
+    display: block;} 
+.main-list{margin-left: 84%;margin-top: 3.75%;
+    padding: 18px 0;
+    width: 59.5%;
+    text-align: left;
+    list-style: none;
+    text-align: left;
+    background-color: white;
+    display: inline-block;}
+.app-list-item{margin-left: 6%;
+    line-height: 55px;
+    width: 89%;height: 55px;
+    text-indent: 16px;
+    border-bottom: 1px solid #c5c5c5;}
+#app-list-item{border: 0;}
+.app-arrow{width: 10px;height: auto;
+    margin-top: -1px;margin-right: 5%;
+    float: right;
+    vertical-align: middle;} 
+.app-exam-down{margin: 0 auto;
+    margin-bottom: 3%;
+    border: 2px solid #008264;
+    width: 20vw;height: 54px;
+    text-align: center;
+    font-size: 17px;font-weight: bold;
+    line-height: 50px;}
+.app-exam-down a {color: #008264;
+    font-family: 'Times New Roman', '微軟正黑體'; 
+    font-size: 17px;
+    text-decoration: none;
+    line-height: inherit; 
+    font-weight: 700 }
+#x1:hover{color: #008264;}
+#x1{color: #3f3f3f;}

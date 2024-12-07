@@ -1,0 +1,113 @@
+/*wangyifan.css*/
+.centered-green-text_custom{
+    color: green;
+    text-align: center;
+    font-size: 45px;
+}
+
+
+    
+
+.img_custom{
+    transition: filter 0s ease-in-out;
+}
+img_custom:hover{
+    filter: grayscale(70%);
+}
+.hover-color_custom{
+    color: black;
+    transition: color 0.3s ease;
+}
+.hover-color_custom:hover{
+    color: #008264;
+}
+.flex-container_custom{
+    display: flex;
+    justify-content: space-around;
+}
+.img_custom{
+    margin-right: 10px;
+}
+.p_custom{
+    font-size: 16px;
+}
+/* 第二部分*/
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.container-column {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 1px;
+    border: 1px solid #ccc; 
+}
+
+.two-column-list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    column-count: 2; 
+    column-gap: 20px; 
+    -webkit-column-count: 2; 
+    -webkit-column-gap: 20px; 
+    -moz-column-count: 2; 
+    -moz-column-gap: 20px;
+
+}
+
+
+.two-column-list li {
+    break-inside: avoid; 
+    padding: 10px; 
+    border-bottom: 1px solid #ccc; 
+}
+
+.two-column-list li a {
+    text-decoration: none; 
+    color: #333;
+    padding-left: 20px; 
+}
+
+
+
+.table-container {
+    display: table;
+    width: 100%;
+    border-collapse: collapse; 
+}
+.cell {
+    display: table-cell;
+    border: 1px solid #000; 
+    background-image: url('https://cityu.edu.mo/wp-content/uploads/2021/03/banner.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    vertical-align: middle; 
+    text-align: left;
+    padding: 20px; 
+    height: 300px; 
+    
+}
+.cell-content {
+    color: white; 
+    z-index: 1; 
+    position: relative; 
+    
+   
+}
+#table12{padding: 35px;}
+#div12{overflow: hidden;}
+#a12{text-decoration: none;color: black;}
+#h12{font-family: "Times New Roman", 微軟正黑體;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 55.3846px;}

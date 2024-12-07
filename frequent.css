@@ -1,0 +1,165 @@
+body{color: #000;
+    font-size: 12px;
+    font-family: "Helvetica Neue", "Heiti TC", "微軟正黑體", "Microsoft JhengHei", "Arial", sans-serif;
+    line-height: 20px;
+    margin: 0;}
+div {display: block;
+    unicode-bidi: isolate;}
+#li1{margin-right: 10px;display: inline-block;}
+#li2{display: inline-block;}
+ul {list-style-type: none;}
+.ul1{padding: 0;}
+img{width: auto;
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;}
+a{text-decoration: none;}
+u{text-decoration: underline;}
+#a1{color: white;text-decoration: none;}
+.a1{padding: 0 10px;color: white;text-decoration: none;}
+.a2{padding: 0 10px;border-left: 1px solid #fff;color: white;text-decoration: none;}
+.a3{padding: 10px 20px;
+    border-bottom: 1px solid #E6E6E6;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    display: block;}
+.a4{display: inline-block;
+    margin-top: 10px;
+    color: #fff !important;
+    background-color: #ED1E79;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;}
+.h1{text-align: center;
+    font-size: 30px;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    line-height: 120%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;}
+.h2{font-size: 18px;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei UI", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+    line-height: 120%;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;}
+#p1{margin: 0 0 10px;}
+#container{background-color: #BDFFF2;width: 100%;}
+#up{padding: 10px 0;
+background-color: #2D2D2D;
+height: 30px;}       
+#upp{margin-left: auto;
+    margin-right: auto;
+    max-width: 850px;
+    width: 850px;
+    height: 30px;}
+#right{text-align: left;
+    float: left;
+    margin-top:-6px;
+    width: 60%;}
+#right-t{margin-top: 10px;}
+#right-t ul{padding:0;margin:0;}
+#middle{text-align: left;
+    color: #fff;
+    float: left;
+    width: 20%;}  
+#middle ul{padding:0;margin:0;}  
+#link{color: #fff;}
+#left{text-align: right;
+    margin-top: 5px;
+    float: left;
+    width: 20%;}
+.language{margin-top: 3px;}
+#left ul {
+    padding: 0;
+    margin: 0;
+}
+.language li{display: inline-block;}
+#center{margin: auto;
+padding: 0 10px;
+background-color: rgb(255, 255, 255);
+width: 850px;}
+#top{margin-bottom: 20px;
+    padding: 20px 0;
+    background-image: url(https://ado.cityu.edu.mo/template/01/img/header-bg.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;}
+#list{height: 468px;display: flex;}
+#list-left{padding-right: 20px;width: 150px;height: 468px;}
+#list-t{margin-bottom: 20px;
+    width: 150px;
+    height: 448px;
+    background-color: rgb(242, 242, 242);}
+#list-right{width: 680px;height: 166.094px;float: right;}
+#middle2{width: 680px;height: 166.094px;}
+#middle-up{margin: 0;
+        padding: 15px 0;
+        width: 680px;
+        height: 20px;
+        text-align: left;
+        float: left;}
+.divider{padding: 0 5px;}
+#middle-down{padding-left: 0;
+    padding-right: 0;
+    clear: both;
+    width: 100%;}
+.enter-link{word-break: break-all;
+    line-height: 150%;
+    margin: 0;}
+.img1{width: 20px;}
+#down{width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid #CCCCCC;}
+#down-n{width: 890px;height: 51.604px;
+    clear: both;
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    display: flex;}
+#down-n-left{padding-left: 10px;
+    padding-right: 10px;
+    text-align: right;
+    float: left;
+    width: 30%;}
+#down-n-center{padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 40%;}
+#down-n-right{padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+    float: left;
+    width: 30%;}
+#button{margin: 0 -10px;
+    padding: 20px;
+    background-color: #2D2D2D;
+    width: auto;
+    height: 200.333px;}
+#button-up{width: auto;height: 140.666px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    display: flex;}
+#button-up-items{padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    width: 33.33333%;}
+.footer-title{font-size: 16px;
+    font-weight: bold;
+    display: block;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid #fff;}
+.footer-concern{margin: 0;
+    padding: 0;}
+.facebook{display: inline-block;margin-right: 5px;}
+.weibo{display: inline-block;}
+
+#button-down{text-align: center;}
+.span1{color: rgba(255, 255, 255, 0.7);
+    margin-right: 20px;}

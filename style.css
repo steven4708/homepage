@@ -1,0 +1,288 @@
+/* style.css */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap");
+
+* {
+}
+
+:root {
+  --dark-grey: #333333;
+  --medium-grey: #636363;
+  --light-grey: #eeeeee;
+  --ash: #f4f4f4;
+  --primary-color: #2b72fb;
+  --white: white;
+  --border: 1px solid var(--light-grey);
+  --shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.body-1 {
+  font-family: inherit;
+  background-color: var(--white);
+  color: var(--dark-grey);
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", "微軟正黑體";
+}
+
+.btn {
+  display: block;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+
+.logo1 {
+  display: flex;
+  align-items: center;
+
+
+}
+
+.logo1 img {
+  width: 250px;
+  height: 79px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 20px;
+  z-index:1000;
+}
+
+
+.menu2 ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
+.menu2 ul li {
+  margin: 0 10px;
+}
+
+.menu2 ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.menu2 ul li a:hover {
+  color: #3d8804;
+  /* 鼠标悬停效果 */
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: inherit;
+  font-size: 14px;
+}
+
+button:hover {
+  color: #3d8804;
+  /* 鼠标悬停效果 */
+}
+
+#menu2-bar {
+  display: flex ;
+  justify-content: center;
+  background-color: #438c5f;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+  z-index:1000;
+}
+
+#menu2-bar ul li {
+  color: white;
+}
+
+#menu2-bar ul li a{
+  color: white;
+}
+
+#menu2-bar ul li:hover {
+  color: #3d8804;
+  /* 鼠标悬停效果 */
+}
+
+#menu2-bar ul li a:hover {
+  color: #3d8804;
+  /* 鼠标悬停效果 */
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  padding: 0.3rem;
+  min-width: 60px;
+  margin: 0 0.6rem;
+  z-index:100;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  min-width: 230px;
+  background-color:#438c5f;
+  border-radius: 10px;
+  position: absolute;
+  top: 36px;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0.97) translateX(-5px);
+  transition: 0.1s ease-in-out;
+  box-shadow: var(--shadow);
+}
+
+.dropdown.active {
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1) translateX(5px);
+}
+
+.dropdown ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1.2rem;
+  font-size: 0.95rem;
+}
+
+.dropdown-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.15rem;
+}
+
+.dropdown-btn arrow{
+  margin-left:10px;
+  transition:transform 0.3s;
+}
+
+.dropdown-link {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  border-radius: 7px;
+  transition: 0.1s ease-in-out;
+}
+
+.dropdown-link p {
+  font-size: 0.8rem;
+  color:white;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.right-container .search {
+  position: relative;
+}
+
+.right-container img {
+  border-radius: 50%;
+}
+
+.search input {
+  background-color: var(--ash);
+  border: none;
+  border-radius: 6px;
+  padding: 0.7rem;
+  padding-left: 2.4rem;
+  font-size: 16px;
+  width: 100%;
+  border: var(--border);
+}
+
+.search .bx-search {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  font-size: 1.3rem;
+  transform: translateY(-50%);
+  opacity: 0.6;
+}
+
+.slideshow {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto animation: slideright 10s infinite linear;
+  /* Adjust animation duration as needed */
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideshow img:nth-child(2) {
+  animation-delay: 5s;
+  /* Delay for the second image */
+}
+
+.slideshow img:nth-child(3) {
+  animation-delay: 10s;
+  /* Delay for the third image */
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(200px);
+    /* Start from bottom */
+  }
+
+  100% {
+    transform: translateY(-600px);
+    /* Move all the way to the top (three times the height of the container to accommodate for the number of images) */
+  }
+}

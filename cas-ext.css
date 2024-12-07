@@ -1,0 +1,137 @@
+html, body {
+    font-size: 14px;
+    line-height: 1.5em;
+    background-image: url("background.png");
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+#content #list-languages {
+    text-align: right;
+}
+
+#login {
+    float: none;
+    width: 100%;
+    margin-top: 120px;
+}
+
+#login .logo {
+    height: 95px;
+    margin: 0 0 10px 0;
+    background: url('logo.png') no-repeat center;
+    background-size: contain;
+}
+
+#login #fm1 {
+    position: relative;
+    width: 308px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#login #msg.errors {
+    position: absolute;
+    top: 0;
+    padding: 20px 0;
+    border: none;
+    background: none;
+}
+
+#login label {
+    line-height: 24px;
+}
+
+#login #fm1 .row {
+    margin-bottom: 20px;
+}
+
+#login #fm1 .row input.required {
+    width: 294px;
+    height: 28px;
+    font-size: 14px;
+
+    background-color: #F3F3F3;
+    border-color: #F3F3F3;
+}
+
+#login #fm1 .row input.required:hover,
+#login #fm1 .row input.required:focus {
+    background-color: white;
+    border-color: #1BB6B7;
+    outline: none;
+}
+
+#login #fm1 .row.btn-row {
+    margin-top: 30px;
+}
+
+.btn-submit {
+    width: 308px;
+    height: 42px;
+    margin: 0;
+    border: 1px solid #18A5A5;
+    -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+
+    background-color: #1BB6B7;
+    font-size: 14px;
+    color: white;
+}
+
+#username-warning, #password-warning, #email-validation{
+    color: #BB0000;
+}
+
+.change-pwd {
+    text-decoration: none;
+    color: #067B7c;
+    float: right;
+}
+
+.change-pwd:visited {
+    color: #067B7c;
+}
+
+.third-party-section {
+    margin: 20px auto;
+    width: 310px;
+    text-align: center;
+}
+
+.third-party-title {
+    background: #B9B9B9;
+    height: 1px;
+    margin-top: 10px;
+}
+
+.third-party-title span {
+    background: white;
+    padding: 0px 10px 0px 10px;
+    position: relative;
+    top: -10px;
+    color: #B9B9B9;
+}
+
+.third-party-icons {
+    margin-top: 10px;
+}
+
+.third-party-icons > .icon{
+    margin: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.icon.icon-facebook {
+    background: url('../images/facebook.png') no-repeat center;
+    height: 35px;
+}

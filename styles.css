@@ -1,0 +1,109 @@
+/* 全局样式重置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* 外层容器样式 */
+.container.a_know {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 标题样式 */
+.title h1.zh_title {
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+/* 整体内容布局 */
+.know {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* 视频区域样式 */
+.know_video {
+    width: 40%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.iconfont.video_icon {
+    font-size: 36px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.know_video.title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.video-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    padding: 0;
+}
+
+.video-list.item {
+    cursor: pointer;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    color: #333;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.video-list.item:hover {
+    background-color: #f0f0f0;
+}
+
+/* 文字叙述区域样式 */
+.narrate {
+    width: 55%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.narrate h2 {
+    color: #007bff;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.narrate h2 span {
+    font-size: 18px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.narrate a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    word-break: break-word;
+}
